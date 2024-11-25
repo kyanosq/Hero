@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
     'Luke' => 'lzhaoyilun@gmail.com',
     'Joe Mattiello' => 'git@joemattiello.com'
   }
-  s.source           = { git: 'https://github.com/HeroTransitions/Hero.git', tag: s.version.to_s }
+  s.source           = { git: 'https://github.com/kyanosq/Hero.git', tag: s.version.to_s }
+  
 
   s.cocoapods_version = '>= 1.4.0'
 
